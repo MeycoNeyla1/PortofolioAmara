@@ -444,10 +444,6 @@ section {
   border: 1px dashed rgba(100,255,218,0.3);
 }
 
-#tab-poster .project-img {
-  aspect-ratio: 3 / 4;
-}
-
 .project-card h3 {
   margin-bottom: 1rem;
 }
