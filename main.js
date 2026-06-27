@@ -179,7 +179,7 @@ const lightboxImg = document.getElementById('lightbox-img');
 const closeLightbox = document.querySelector('.close-lightbox');
 
 window.openLightbox = (src) => {
-  lightboxImg.src = encodeURI(src);
+  lightboxImg.src = src;
   lightbox.classList.add('show');
 }
 
