@@ -150,7 +150,10 @@ const closeModals = document.querySelectorAll('.close-modal');
 detailsBtns.forEach(btn => {
   btn.addEventListener('click', () => {
     const modalId = btn.getAttribute('data-modal');
-    document.getElementById(modalId).classList.add('show');
+    if (modalId) {
+      const modal = document.getElementById(modalId);
+      if (modal) modal.classList.add('show');
+    }
   });
 });
 
