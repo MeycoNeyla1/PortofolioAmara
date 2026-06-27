@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meyco Amara Celyna Putri - Portfolio</title>
+  <link rel="stylesheet" href="./style.css" />
+  <!-- Google Fonts: Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <!-- Boxicons for icons -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+  <!-- Custom Cursor -->
+  <div class="cursor-dot" id="cursor-dot"></div>
+  <div class="cursor-outline" id="cursor-outline"></div>
+
+  <!-- Pre-loader -->
+  <div id="preloader">
+    <div class="preloader-content">
+      <h1 class="preloader-title">Welcome to Meyco's Portfolio</h1>
+      <div class="preloader-icons">
+        <i class='bx bxs-palette icon-anim' style="--i:1;"></i>
+        <i class='bx bx-camera-movie icon-anim' style="--i:2;"></i>
+        <i class='bx bx-test-tube icon-anim' style="--i:3;"></i>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sticky Navbar -->
+  <header id="navbar">
+    <div class="logo">Meyco<span>.</span></div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">Tentang</a></li>
+        <li><a href="#skills">Keahlian</a></li>
+        <li><a href="#portfolio">Portofolio</a></li>
+        <li><a href="#contact">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1>Meyco Amara Celyna Putri</h1>
+        <h2 class="typewriter-container">Saya seorang <span id="typewriter"></span><span class="cursor-blink">|</span>
+        </h2>
+        <a href="#portfolio" class="cta-btn">Lihat Karya Saya</a>
+      </div>
+      <div class="hero-image">
+        <!-- 3D Tilt Badge -->
+        <div class="tilt-badge" id="tilt-badge">
+          <div class="badge-content">
+            <img src="./aq imut.jpeg" alt="Profile" class="badge-profile">
+            <h3>Meyco Amara</h3>
+            <p>Creative Mind</p>
+            <div class="badge-icons">
+              <i class='bx bxs-flask'></i>
+              <i class='bx bx-video-recording'></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about">
+      <h2 class="section-title fade-in-up">Tentang Saya</h2>
+      <div class="about-container">
+        <div class="about-text fade-in-up">
+          <p>
+            Halo! Saya Meyco Amara Celyna Putri. Sejak SMP saya aktif mengikuti berbagai organisasi karena senang
+            belajar hal baru dan bertemu banyak orang. Di waktu luang, saya gemar membuat desain grafis dan mengedit
+            video. Kegiatan tersebut menjadi salah satu hobi yang saya nikmati karena memberi ruang untuk mengembangkan
+            kreativitas dan menuangkan ide menjadi karya visual.
+          </p>
+          <br>
+          <p>
+            Saya pernah terlibat di berbagai organisasi, seperti OSIS dan PMR, sejak SMP hingga SMK. Dari pengalaman
+            tersebut, saya belajar tentang kerja sama, komunikasi, kepemimpinan, dan tanggung jawab dalam menjalankan
+            sebuah kegiatan.
+          </p>
+          <br>
+          <p>
+            Saya memiliki ketertarikan di bidang desain grafis dan video editing menggunakan Canva, CapCut, Alight
+            Motion, dan IbisPaint X. Saya sering memanfaatkan kemampuan tersebut untuk mendukung kegiatan organisasi,
+            membuat konten, maupun mengerjakan berbagai proyek kreatif.
+          </p>
+        </div>
+        <div class="about-timeline">
+          <div class="timeline-item fade-in-up">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Siswa SMK Jurusan Kimia Industri</h3>
+              <p>Menempuh pendidikan di bidang Kimia Industri, mengembangkan pemikiran analitis dan eksperimental.</p>
+            </div>
+          </div>
+          <div class="timeline-item fade-in-up">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Aktif Organisasi Osis</h3>
+              <p>Berpengalaman memimpin dan berkolaborasi di berbagai organisasi seperti OSIS dan PMR sejak bangku SMP.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item fade-in-up">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Kreator Visual</h3>
+              <p>Mengasah kemampuan di bidang desain grafis dan video editing (Canva, CapCut, IbisPaint X) untuk
+                berbagai keperluan acara dan proyek.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <h2 class="section-title fade-in-up">Keahlian</h2>
+      <div class="skills-grid">
+        <div class="skill-item fade-in-up">
+          <div style="display: flex; gap: 10px; justify-content: center; margin-bottom: 15px;">
+            <img src="./CapCut Apks.jpg" alt="CapCut" style="width: 40px; height: 40px; border-radius: 8px; object-fit: cover;">
+            <img src="./Alight Motion von Alight Creative, Inc_.jpg" alt="Alight Motion" style="width: 40px; height: 40px; border-radius: 8px; object-fit: cover;">
+          </div>
+          <span>Video Editing</span>
+        </div>
+        <div class="skill-item fade-in-up">
+          <div style="display: flex; gap: 10px; justify-content: center; margin-bottom: 15px;">
+            <img src="./download.jpg" alt="Canva" style="width: 40px; height: 40px; border-radius: 8px; object-fit: cover;">
+            <img src="./Ibis Paint HD Picture.jpg" alt="IbisPaint X" style="width: 40px; height: 40px; border-radius: 8px; object-fit: cover;">
+          </div>
+          <span>Desain Grafis</span>
+        </div>
+        <div class="skill-item fade-in-up">
+          <i class='bx bx-user-voice'></i>
+          <span>Leadership</span>
+        </div>
+        <div class="skill-item fade-in-up">
+          <i class='bx bx-group'></i>
+          <span>Kerja Tim</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+      <h2 class="section-title fade-in-up">Etalase Karya</h2>
+
+      <!-- Tab Navigation -->
+      <div class="tab-nav">
+        <button class="tab-btn active" data-target="tab-video">Proyek Video</button>
+        <button class="tab-btn" data-target="tab-poster">Proyek Poster</button>
+        <button class="tab-btn" data-target="tab-certificates">Sertifikat & Prestasi</button>
+      </div>
+
+      <div class="tab-content">
+        <!-- Tab 1A: Proyek Video -->
+        <div id="tab-video" class="tab-pane active">
+          <div class="project-grid">
+            <div class="project-card fade-in-up">
+              <video class="project-img" src="./Tugas IPAS Interaksi Sosial _Pergaulan Bebas_ .mp4" muted loop autoplay
+                playsinline style="object-fit: cover; border: none;"></video>
+              <h3>Tugas IPAS</h3>
+              <button class="details-btn" data-modal="modal-2">Details</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tab 1B: Proyek Poster -->
+        <div id="tab-poster" class="tab-pane">
+          <div class="project-grid">
+
+            <!-- Poster 1 -->
+            <div class="project-card fade-in-up">
+              <img class="project-img" src="./open rekrutmen.jpeg" alt="Poster Open Rekrutmen"
+                style="object-fit: cover; border: none;">
+              <h3>Poster Open Rekrutmen</h3>
+              <button class="details-btn" onclick="openLightbox('./open rekrutmen.jpeg')">Lihat Poster</button>
+            </div>
+
+            <!-- Poster 2 -->
+            <div class="project-card fade-in-up">
+              <img class="project-img" src="./poster kartini.jpeg" alt="Poster Hari Kartini"
+                style="object-fit: cover; border: none;">
+              <h3>Poster Hari Kartini</h3>
+              <button class="details-btn" onclick="openLightbox('./poster kartini.jpeg')">Lihat Poster</button>
+            </div>
+
+            <!-- Poster 3 -->
+            <div class="project-card fade-in-up">
+              <img class="project-img" src="./poster kebangkitan nasional.jpeg" alt="Poster Kebangkitan Nasional"
+                style="object-fit: cover; border: none;">
+              <h3>Poster Kebangkitan Nasional</h3>
+              <button class="details-btn" onclick="openLightbox('./poster kebangkitan nasional.jpeg')">Lihat
+                Poster</button>
+            </div>
+
+            <!-- Poster 4 -->
+            <div class="project-card fade-in-up">
+              <img class="project-img" src="./poster kenaikan isa.jpeg" alt="Poster Kenaikan Isa Almasih"
+                style="object-fit: cover; border: none;">
+              <h3>Poster Kenaikan Isa Almasih</h3>
+              <button class="details-btn" onclick="openLightbox('./poster kenaikan isa.jpeg')">Lihat Poster</button>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Tab 2: Sertifikat -->
+        <div id="tab-certificates" class="tab-pane">
+          <div class="cert-grid">
+            <div class="cert-item fade-in-up" onclick="openLightbox('./sertifikat PMR.jpeg')">
+              <img src="./sertifikat PMR.jpeg" alt="Juara 2 Jumbara PMR">
+              <p>Juara 2 Jumbara PMR</p>
+            </div>
+            <div class="cert-item fade-in-up" onclick="openLightbox('./sertifikat macintos.jpeg')">
+              <img src="./sertifikat macintos.jpeg" alt="Sertifikat Amara Macintos">
+              <p>Sertifikat Macintos</p>
+            </div>
+            <div class="cert-item fade-in-up" onclick="openLightbox('./sertifikat vidio cepak.jpeg')">
+              <img src="./sertifikat vidio cepak.jpeg" alt="Sertifikat Vidio Cepak">
+              <p>Sertifikat Vidio Cepak</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer & Kontak Section -->
+  <footer id="contact" class="footer-contact">
+    <div class="footer-content">
+      <div class="contact-info">
+        <p>📍 Kediri, Jawa Timur &nbsp;|&nbsp; 🏫 SMK Negeri 1 Kediri</p>
+      </div>
+      <div class="social-links">
+        <a href="https://instagram.com/yyowwbrow" target="_blank" rel="noopener noreferrer"><i
+            class='bx bxl-instagram'></i></a>
+        <a href="https://tiktok.com/meyzkow" target="_blank" rel="noopener noreferrer"><i class='bx bxl-tiktok'></i></a>
+        <a href="mailto:meycoamara@gmail.com"><i class='bx bx-envelope'></i></a>
+      </div>
+      <p class="copyright">&copy; 2026 Meyco Amara Celyna Putri</p>
+    </div>
+  </footer>
+
+  <!-- Modals & Lightbox -->
+
+  <!-- Project Modal 1 -->
+  <div id="modal-1" class="modal">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <h2>Desain Poster Acara</h2>
+      <p><strong>Aplikasi:</strong> Canva, IbisPaint X</p>
+      <p><strong>Proses Kreatif:</strong> Memadukan elemen visual yang cerah dengan tipografi tegas untuk menarik
+        perhatian. Pemilihan warna didasarkan pada tema acara, memastikan setiap elemen grafis memiliki tujuan
+        komunikasi yang jelas.</p>
+    </div>
+  </div>
+
+  <!-- Project Modal 2 -->
+  <div id="modal-2" class="modal">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <h2>Tugas IPAS</h2>
+      <video controls style="width: 100%; border-radius: 8px; margin-bottom: 1rem; max-height: 60vh;">
+        <source src="./Tugas IPAS Interaksi Sosial _Pergaulan Bebas_ .mp4" type="video/mp4">
+        Browser Anda tidak mendukung tag video.
+      </video>
+      <p><strong>Topik:</strong> Interaksi Sosial & Pergaulan Bebas</p>
+      <p><strong>Proses Kreatif:</strong> Video edukasi yang dibuat untuk tugas IPAS guna memberikan pemahaman tentang
+        dampak pergaulan bebas dan pentingnya interaksi sosial yang sehat.</p>
+    </div>
+  </div>
+
+  <!-- Lightbox for Certificates -->
+  <div id="lightbox" class="lightbox">
+    <span class="close-lightbox">&times;</span>
+    <img id="lightbox-img" src="" alt="Certificate Detail">
+  </div>
+
+  <script type="module" src="./main.js"></script>
+</body>
+
+</html>
