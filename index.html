@@ -185,7 +185,7 @@
               <img class="project-img" src="./img/open rekrutmen.jpeg" alt="Poster Open Rekrutmen"
                 style="object-fit: cover; border: none;">
               <h3>Poster Open Rekrutmen</h3>
-              <button class="details-btn" onclick="openLightbox('./img/open rekrutmen.jpeg')">Lihat Poster</button>
+              <button class="details-btn" onclick="openLightbox(this.parentElement.querySelector('img').src)">Lihat Poster</button>
             </div>
 
             <!-- Poster 2 -->
@@ -193,7 +193,7 @@
               <img class="project-img" src="./img/poster kartini.jpeg" alt="Poster Hari Kartini"
                 style="object-fit: cover; border: none;">
               <h3>Poster Hari Kartini</h3>
-              <button class="details-btn" onclick="openLightbox('./img/poster kartini.jpeg')">Lihat Poster</button>
+              <button class="details-btn" onclick="openLightbox(this.parentElement.querySelector('img').src)">Lihat Poster</button>
             </div>
 
             <!-- Poster 3 -->
@@ -201,7 +201,7 @@
               <img class="project-img" src="./img/poster kebangkitan nasional.jpeg" alt="Poster Kebangkitan Nasional"
                 style="object-fit: cover; border: none;">
               <h3>Poster Kebangkitan Nasional</h3>
-              <button class="details-btn" onclick="openLightbox('./img/poster kebangkitan nasional.jpeg')">Lihat
+              <button class="details-btn" onclick="openLightbox(this.parentElement.querySelector('img').src)">Lihat
                 Poster</button>
             </div>
 
@@ -210,7 +210,7 @@
               <img class="project-img" src="./img/poster kenaikan isa.jpeg" alt="Poster Kenaikan Isa Almasih"
                 style="object-fit: cover; border: none;">
               <h3>Poster Kenaikan Isa Almasih</h3>
-              <button class="details-btn" onclick="openLightbox('./img/poster kenaikan isa.jpeg')">Lihat Poster</button>
+              <button class="details-btn" onclick="openLightbox(this.parentElement.querySelector('img').src)">Lihat Poster</button>
             </div>
 
           </div>
@@ -219,15 +219,15 @@
         <!-- Tab 2: Sertifikat -->
         <div id="tab-certificates" class="tab-pane">
           <div class="cert-grid">
-            <div class="cert-item fade-in-up" onclick="openLightbox('./img/sertifikat PMR.jpeg')">
+            <div class="cert-item fade-in-up" onclick="openLightbox(this.querySelector('img').src)">
               <img src="./img/sertifikat PMR.jpeg" alt="Juara 2 Jumbara PMR">
               <p>Juara 2 Jumbara PMR</p>
             </div>
-            <div class="cert-item fade-in-up" onclick="openLightbox('./img/sertifikat macintos.jpeg')">
+            <div class="cert-item fade-in-up" onclick="openLightbox(this.querySelector('img').src)">
               <img src="./img/sertifikat macintos.jpeg" alt="Sertifikat Amara Macintos">
               <p>Sertifikat Macintos</p>
             </div>
-            <div class="cert-item fade-in-up" onclick="openLightbox('./img/sertifikat vidio cepak.jpeg')">
+            <div class="cert-item fade-in-up" onclick="openLightbox(this.querySelector('img').src)">
               <img src="./img/sertifikat vidio cepak.jpeg" alt="Sertifikat Vidio Cepak">
               <p>Sertifikat Vidio Cepak</p>
             </div>
